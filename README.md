@@ -14,6 +14,7 @@
 
 # CRUCIAL BUGS
 - [ ] Pazarlık sadece 2 kullanıcı arasında geçebilir kullanıcı kontrolü yapılmadı.B sebepten dolayı 2 kullanıcı yanyanayken başka bir kullanıcı gelirse bug oluşur.
+- [ ] Araba alım-satım işlemide para yanlış şekilde azalıp artıyor.
 
 # CRUCIAL FİXED BUGS
 - [X] RCC paketinin online sistemi ile benim yaptığım envanter,trade sistemleri birbirleriyle uyumlu çalışmıyordu, RCC paketinin Pun2 scriptlerine ekleme/çıkarma yaparak sorunu çözdüm.
