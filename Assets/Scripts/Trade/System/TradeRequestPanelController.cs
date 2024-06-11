@@ -37,7 +37,7 @@ public class TradeRequestPanelController : MonoBehaviour
         image.sprite = item.itemImage;
         carPrice.text = item.itemPrice.ToString();
         carName.text = item.itemName;
-        this.offerPrice.text = "Offer Price:     " + offerPrice;
+        this.offerPrice.text = offerPrice.ToString();
         carModel.text = $"Model: {item.itemModel}";
         carYear.text = $"Year: {item.itemYear}";
         carMileage.text = $"Mileage: {item.itemMileage}";
