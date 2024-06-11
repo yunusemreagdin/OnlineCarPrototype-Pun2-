@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9d1af79faeb1147bbf43ffd491f5de, type: 3}
+  m_Name: M3-E46
+  m_EditorClassIdentifier: 
+  id: 6
+  itemName: BMW
+  itemImage: {fileID: 21300000, guid: 85aae92a388bb854d8dab329c93000b1, type: 3}
+  itemPrefab: {fileID: 8573549319431884798, guid: 0da2e5725191ac248818a5d59df282db, type: 3}
+  itemPrice: 1400
+  itemModel: M3 E46
+  itemYear: 2000
+  itemMileage: 9000
+  itemColor: Dark Blue
+  itemEnginePower: 343
+  itemMaxSpeed: 250

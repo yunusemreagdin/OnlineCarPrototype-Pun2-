@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9d1af79faeb1147bbf43ffd491f5de, type: 3}
+  m_Name: Pickup
+  m_EditorClassIdentifier: 
+  id: 8
+  itemName: Chevrolet
+  itemImage: {fileID: 21300000, guid: 303fd8d8b678ed64aacd487df759e8fd, type: 3}
+  itemPrefab: {fileID: 5712088508789026359, guid: e968d076ed3118c428264b15359fb824, type: 3}
+  itemPrice: 900
+  itemModel: Silverado 1500
+  itemYear: 2005
+  itemMileage: 145621
+  itemColor: Black
+  itemEnginePower: 195
+  itemMaxSpeed: 170

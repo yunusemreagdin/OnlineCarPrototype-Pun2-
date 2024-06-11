@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9d1af79faeb1147bbf43ffd491f5de, type: 3}
+  m_Name: Coupe
+  m_EditorClassIdentifier: 
+  id: 1
+  itemName: Ford
+  itemImage: {fileID: 21300000, guid: 303639873d2998e459792d001acfee93, type: 3}
+  itemPrefab: {fileID: 4493774594652649359, guid: d0ae1c8c589d3e242a5be43166785719, type: 3}
+  itemPrice: 1200
+  itemModel: Mustang Boss 302
+  itemYear: 2012
+  itemMileage: 13000
+  itemColor: Blue
+  itemEnginePower: 444
+  itemMaxSpeed: 250
