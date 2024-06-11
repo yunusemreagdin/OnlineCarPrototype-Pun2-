@@ -81,6 +81,7 @@ public class TradePanelManager : MonoBehaviour
     public void CloseWaitingResponsePanel()
     {
         waitingResponsePanel.SetActive(false);
+        waitingResponsePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Waiting Response";
     }
 
     public void ResponsePanelAccepted()
@@ -90,9 +91,9 @@ public class TradePanelManager : MonoBehaviour
         
         IEnumerator ClosePanel()
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
             CloseWaitingResponsePanel();
-        }
+        }   
     }
 
     public void ResponsePanelRejected()
@@ -102,7 +103,7 @@ public class TradePanelManager : MonoBehaviour
         
         IEnumerator ClosePanel()
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
             CloseWaitingResponsePanel();
         }
     }

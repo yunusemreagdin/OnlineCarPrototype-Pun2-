@@ -1,4 +1,6 @@
+using System;
 using Photon.Pun;
+using UnityEngine;
 
 
 public class TradeManager : MonoBehaviourPun
@@ -39,6 +41,7 @@ public class TradeManager : MonoBehaviourPun
     [PunRPC]
     public void RPC_SendTradeOffer(bool newValue,string itemID, int offerPrice)
     {
+        
         isTradeOffer = newValue;
         if (photonView.IsMine)
         {
@@ -89,7 +92,6 @@ public class TradeManager : MonoBehaviourPun
                 }
                 _inventoryManager.AddItemWithID(player.GetComponent<Inventory>(),itemID);
                 player.GetComponent<Inventory>().Money -= price;
-                
             }
         }
     }

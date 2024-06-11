@@ -2430,7 +2430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.84337664, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6996,7 +6996,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allItems:
   - {fileID: 11400000, guid: 1cb97a7a97cf3384e8c916da7da8c5b2, type: 2}
+  - {fileID: 11400000, guid: 3debc7b9644aff3428432cf30010f85d, type: 2}
+  - {fileID: 11400000, guid: 1c832990ebba24346b1c81e14f69c2d4, type: 2}
+  - {fileID: 11400000, guid: 9e2be5cfa5824454884d4abb63a33b2d, type: 2}
+  - {fileID: 11400000, guid: 3c82f4eece345fa41ac6f7e4d746318b, type: 2}
+  - {fileID: 11400000, guid: 3d2ebe76a90fc6e44aa816face545244, type: 2}
   - {fileID: 11400000, guid: 725c63be25618534284e9afe8c3ed14a, type: 2}
+  - {fileID: 11400000, guid: 2c081f62cee59c04596abb11d92506c9, type: 2}
+  - {fileID: 11400000, guid: 3f19fb98f297c0b41a427bea976e1942, type: 2}
+  - {fileID: 11400000, guid: 43258c4f76ac4124185621e768b083ef, type: 2}
 --- !u!4 &485011039
 Transform:
   m_ObjectHideFlags: 0

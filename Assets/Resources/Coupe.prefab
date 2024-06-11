@@ -16141,7 +16141,7 @@ GameObject:
   - component: {fileID: 5390181702911495934}
   m_Layer: 8
   m_Name: Coupe
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
